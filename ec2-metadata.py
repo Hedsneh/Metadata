@@ -28,7 +28,3 @@ def is_json(myjson):
     except ValueError:
         return False
     return True
-
-
-if __name__ == '__main__':
-    print(get_metadata_json())
