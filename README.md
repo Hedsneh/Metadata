@@ -13,3 +13,13 @@ local-ipv4: The private IPv4 address of the instance.
 public-ipv4: The public IPv4 address of the instance.
 mac: The MAC address of the instance's network interface
 
+#Steps 
+1. Create EC2 instace in linux AMI (free tier)
+2. connect to that instance
+3. sudo yum install python3
+4. sudo yum install git
+5. Clone the Metadata repository : git clone https://github.com/Hedsneh/Metadata.git
+6. Install PIP environment : sudo pip3 install pipenv
+7. cd  Metadata
+8. Install the dependencies : pipenv install & pip3 install requests
+9. run command : python3 get_metadata.py
